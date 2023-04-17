@@ -1,0 +1,88 @@
+{
+  "name": "rebelinteractivegroup/rig-plugins",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "description": "A simple meta package for commonly used WordPress plugins",
+  "homepage": "https://github.com/rebelinteractivegroup/rig-plugins",
+  "authors": [
+    {
+      "name": "Rob Voss",
+      "email": "rob.voss@digerati.io",
+      "homepage": "https://github.com/Rob-Voss"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "bedrock",
+    "composer"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.9.6",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+        },
+        "require": {
+          "ffraenz/private-composer-installer": "^5.0"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:rebelinteractivegroup/rebel-branding.git"
+    },
+		{
+			"type": "vcs",
+			"url": "git@github.com:rebelinteractivegroup/gravityforms.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:rebelinteractivegroup/facetwp.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "composer/installers": "^1.7",
+    "advanced-custom-fields/advanced-custom-fields-pro": "^5.9.6",
+    "wpackagist-plugin/disable-comments": "*",
+    "wpackagist-plugin/duplicate-page": "^4.3",
+    "wpackagist-plugin/duplicate-post": "^4.5",
+    "wpackagist-plugin/enable-media-replace": "^4.0",
+    "wpackagist-plugin/favicon-by-realfavicongenerator": "*",
+    "wpackagist-plugin/resmushit-image-optimizer": "*",
+    "wpackagist-plugin/regenerate-thumbnails": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/safe-svg": "^2.0",
+    "wpackagist-plugin/yoast-test-helper":"*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "rebelinteractivegroup/facetwp": "*",
+    "rebelinteractivegroup/gravityforms": "*",
+    "rebelinteractivegroup/rebel-branding": "*",
+    "mwdelaney/add-sitemap-to-robots": "*",
+    "mwdelaney/google-tag-manager-snippets": "*"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "ffraenz/private-composer-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
