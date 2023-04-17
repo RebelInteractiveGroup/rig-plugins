@@ -54,8 +54,8 @@
     }
   ],
   "require": {
-    "php": ">=7.2.5",
-    "composer/installers": "^1.7",
+    "php": ">=8.0",
+    "composer/installers": "^2.2",
     "advanced-custom-fields/advanced-custom-fields-pro": "^5.9.6",
     "wpackagist-plugin/disable-comments": "*",
     "wpackagist-plugin/duplicate-page": "^4.3",
