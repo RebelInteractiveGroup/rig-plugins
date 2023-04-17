@@ -26,19 +26,8 @@
       ]
     },
     {
-      "type": "package",
-      "package": {
-        "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "6.1.4",
-        "type": "wordpress-muplugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
-        },
-        "require": {
-          "ffraenz/private-composer-installer": "^5.0"
-        }
-      }
+      "type": "vcs",
+      "url": "git@github.com:RebelInteractiveGroup/advanced-custom-fields-pro.git"
     },
     {
       "type": "vcs",
