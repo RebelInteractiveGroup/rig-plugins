@@ -29,7 +29,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.9.6",
+        "version": "6.1.4",
         "type": "wordpress-muplugin",
         "dist": {
           "type": "zip",
@@ -56,7 +56,7 @@
   "require": {
     "php": ">=8.0",
     "composer/installers": "^2.2",
-    "advanced-custom-fields/advanced-custom-fields-pro": "^5.9.6",
+    "advanced-custom-fields/advanced-custom-fields-pro": "^6.1.4",
     "wpackagist-plugin/disable-comments": "*",
     "wpackagist-plugin/duplicate-page": "^4.3",
     "wpackagist-plugin/duplicate-post": "^4.5",
