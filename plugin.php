@@ -4,7 +4,7 @@
  * Plugin Name: Common Plugins Meta
  * Plugin URI:  https://github.com/rebelinteractivegroup/rig-plugins
  * Description: A simple meta package for commonly used WordPress plugins
- * Version:     1.0.3
+ * Version:     1.0.4
  * Author:      Rob Voss
  * Author URI:  https://github.com/Rob-Voss
  * Licence:     MIT
